@@ -38,3 +38,8 @@ Sound:
 Coding:
   - JetBrains Toolbox
   - Visual Studio 2022
+
+
+Websites:
+  - distrowatch.com
+  - alternativeto.net
