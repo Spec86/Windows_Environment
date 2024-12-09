@@ -1,7 +1,7 @@
 # Windows_Environment
 
 HDD/SSD:
-  - rufus
+  - Rufus
   - Acronis Disk Director 12.5.0.163 
   - Sequoia
 
