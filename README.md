@@ -18,6 +18,9 @@ Local Network:
 Internet:
   - SoftEther VPN Client Manager
   - AB Download Manager
+  - Bit Che
+  - Firefox
+  - Chrome Remote Desktop
 
 
 Office: 
@@ -26,3 +29,12 @@ Office:
 
 Video:
   - K-Lite Codec Pack
+
+
+Sound:
+  - Audials Play
+
+
+Coding:
+  - JetBrains Toolbox
+  - Visual Studio 2022
