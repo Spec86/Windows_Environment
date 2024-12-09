@@ -2,7 +2,8 @@
 
 HDD/SSD:
   - Rufus
-  - Acronis Disk Director 12.5.0.163 
+  - Acronis Disk Director 12.5.0.163
+  - boot-repair-disk-64bit.iso 
   - Sequoia
 
 
