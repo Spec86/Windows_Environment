@@ -28,3 +28,5 @@ pip install opencv-python numpy pillow
 pip install -U paddlex
 
 pip install lxml openpyxl pandas
+
+pip install pyside6
