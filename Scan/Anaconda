@@ -29,4 +29,6 @@ pip install -U paddlex
 
 pip install lxml openpyxl pandas
 
+pip install python-docx
+
 pip install pyside6
