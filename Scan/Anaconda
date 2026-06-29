@@ -1,0 +1,9 @@
+conda create -n paddleocr python=3.11
+
+conda activate paddleocr
+
+python --version
+
+python -m pip install --upgrade pip
+
+nvidia-smi
