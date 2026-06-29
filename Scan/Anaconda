@@ -32,3 +32,5 @@ pip install lxml openpyxl pandas
 pip install python-docx
 
 pip install pyside6
+
+pip install -U "paddlex[ocr]"
