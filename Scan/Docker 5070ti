@@ -28,6 +28,11 @@ Powershell
 	-v /mnt/c/OCRStation:/workspace \
     ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-vl:latest-nvidia-gpu-sm120 \
     /bin/bash
+
+
+	pip install python-docx
+
+
     # Call PaddleOCR CLI or Python API in the container
 	
 	
