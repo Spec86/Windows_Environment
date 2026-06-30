@@ -12,4 +12,5 @@ pip install paddleocr
 
 Use command:
     conda activate paddle50
+    paddlex --pipeline OCR --input C:/OCRStation/images --save_path C:/OCRStation/output
     paddlex --pipeline PaddleOCR-VL-1.6 --input C:/OCRStation/images --save_path C:/OCRStation/output
