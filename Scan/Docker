@@ -1,0 +1,75 @@
+
+Powershell
+	wsl --install
+
+Docker Desktop.exe
+
+Powershell
+	wsl --status
+	wsl --list --verbose
+	wsl --install -d Ubuntu
+		nvidia-smi
+
+		exit
+	wsl -d Ubuntu
+		exit
+
+	wsl --list --verbose
+	wsl --set-default Ubuntu
+	wsl -d Ubuntu
+		nvidia-smi
+		exit
+
+    docker run \
+    -it \
+    --gpus all \
+    --network host \
+    --user root \
+	-v C:\OCRStation:/workspace \
+    ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-vl:latest-nvidia-gpu-sm120 \
+    /bin/bash
+    # Call PaddleOCR CLI or Python API in the container
+	
+	
+		paddleocr doc_parser -i /workspace/images --save_path /workspace/output
+		exit
+	
+	
+📁 Важно про твои файлы
+Когда ты внутри Docker:
+	/workspace
+			— это твоя папка:
+	C:\OCRStation
+
+
+
+ШАГ 1 — открыть Docker Desktop в Windows
+
+Запусти:
+
+Docker Desktop
+ШАГ 2 — включить WSL integration
+
+Перейди:
+
+Settings → Resources → WSL Integration
+
+и включи:
+
+✔ Enable integration with my default WSL distro
+✔ Ubuntu (в списке включить)
+
+ШАГ 3 — Apply & Restart
+
+Нажми:
+
+Apply & Restart
+ШАГ 4 — проверить снова в WSL
+
+Открой снова:
+
+wsl -d Ubuntu
+
+и введи:
+
+docker version
