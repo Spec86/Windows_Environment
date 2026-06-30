@@ -25,7 +25,7 @@ Powershell
     --gpus all \
     --network host \
     --user root \
-	-v C:\OCRStation:/workspace \
+	-v /mnt/c/OCRStation:/workspace \
     ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-vl:latest-nvidia-gpu-sm120 \
     /bin/bash
     # Call PaddleOCR CLI or Python API in the container
