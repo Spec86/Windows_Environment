@@ -75,6 +75,10 @@ Apply & Restart
 
 wsl -d Ubuntu
 
+и введи:
+
+docker version
+
 
 
 wsl -d Ubuntu
@@ -83,8 +87,3 @@ wsl -d Ubuntu
 				exit
 		exit
 exit
-
-
-и введи:
-
-docker version
