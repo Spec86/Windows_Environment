@@ -70,6 +70,16 @@ Apply & Restart
 
 wsl -d Ubuntu
 
+
+
+wsl -d Ubuntu
+		docker ps -a
+		docker start -ai <container_id>
+				exit
+		exit
+exit
+
+
 и введи:
 
 docker version
